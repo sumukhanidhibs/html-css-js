@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #020122;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 75vw;
+}
+
+.container .img{
+    width: 6rem;
+    height: 100%;
+    border-radius: 4px;
+    margin: 3px;
+    background-size: cover;
+    transition: all 0.75s;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+}
+
+.one{
+    background: url(https://i.pinimg.com/564x/49/8c/64/498c643ebfe47096118e35d46831eece.jpg);
+    border: 2px solid #ff0000;
+}
+
+.two{
+    background: url(https://i.pinimg.com/736x/f9/49/d3/f949d368b9b40530d8bd9af88ded3cbe.jpg);
+}
+
+.three{
+    background: url(https://i.pinimg.com/564x/ff/13/5c/ff135c7fbd1e04e41513758d3e8c592f.jpg);
+}
+
+.four{
+    background: url(https://i.pinimg.com/564x/97/d9/0a/97d90ac78832563c912654d51750927d.jpg);
+}
+
+
+
+.container .img:hover{
+    width: 45%;
+    cursor: pointer;
+}
